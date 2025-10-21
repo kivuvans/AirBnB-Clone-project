@@ -60,3 +60,18 @@ Authorization rules will be enforced using role-based access control (RBAC). Dif
 Purpose:
 To ensure users can only perform actions that align with their privileges. For example, a guest can create bookings but cannot delete another host’s property listing.
 
+# CI/CD Pipeline
+GitHub Actions:
+Automates testing, building, and deployment workflows directly from GitHub.
+
+Docker:
+Ensures consistent environments across development, testing, and production by containerizing the application.
+
+Jenkins (optional):
+A powerful automation server for custom CI/CD pipelines in larger deployments.
+
+Pytest / Django Test Framework:
+Runs automated tests as part of the pipeline to verify code quality and functionality.
+
+Heroku / AWS / Render (Deployment):
+Used for deploying the backend application after successful testing.
