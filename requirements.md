@@ -94,7 +94,7 @@ message_body
 sent_at
 
 
-
+# erDiagram
 
 ```mermaid
 erDiagram
