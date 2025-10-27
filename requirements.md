@@ -1,8 +1,7 @@
-🧩 Step 1: Identify Entities and Attributes
+# 🧩 Step 1: Identify Entities and Attributes
 
-From your database specification, your entities are:
 
-User
+# User
 
 user_id (PK)
 
@@ -20,7 +19,7 @@ role
 
 created_at
 
-Property
+# Property
 
 property_id (PK)
 
@@ -38,7 +37,7 @@ created_at
 
 updated_at
 
-Booking
+# Booking
 
 booking_id (PK)
 
@@ -56,7 +55,7 @@ status
 
 created_at
 
-Payment
+# Payment
 
 payment_id (PK)
 
@@ -68,7 +67,7 @@ payment_date
 
 payment_method
 
-Review
+# Review
 
 review_id (PK)
 
@@ -82,7 +81,7 @@ comment
 
 created_at
 
-Message
+# Message
 
 message_id (PK)
 
