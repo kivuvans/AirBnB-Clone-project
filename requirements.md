@@ -1,4 +1,4 @@
-# 🧩 Step 1: Identify Entities and Attributes
+# 🧩 Step 1: Entities and Attributes
 
 
 # User
@@ -94,7 +94,19 @@ message_body
 sent_at
 
 
-# erDiagram
+
+# 🔗 Step 2: Relationships
+# Relationship	Type	Description
+User → Property	1-to-Many	A User (host) can list many Properties
+User → Booking	1-to-Many	A User (guest) can make many Bookings
+Property → Booking	1-to-Many	A Property can have many Bookings
+Booking → Payment	1-to-1	Each Booking has one Payment
+Property → Review	1-to-Many	A Property can have multiple Reviews
+User → Review	1-to-Many	A User (guest) can leave many Reviews
+User → Message	1-to-Many (self-referencing)	A User can send/receive many Messages
+
+
+# 🎨 Step 3: ER Diagram (Visual)
 
 ```mermaid
 erDiagram
